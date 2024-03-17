@@ -1,0 +1,38 @@
+.gameItem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: #686e7a 1px solid;
+  border-radius: 12px;
+  transition: all 0.15s;
+  padding: 20px 24px 20px 16px;
+
+  &:hover {
+    border-color: white;
+  }
+}
+
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.provider {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--gray-font);
+  text-transform: capitalize;
+}

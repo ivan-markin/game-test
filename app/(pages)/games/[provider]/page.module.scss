@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 40px 0;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.gameItem {
+  list-style: none;
+}
+
+.gamesCnt {
+  width: 100%;
+  height: calc(100vh - 210px);
+  overflow: auto;
+  mask-image: linear-gradient(to bottom, black 0%, black 80%, transparent 100%);
+  padding-right: 20px;
+}
+
+.gamesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 60px;
+}

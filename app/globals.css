@@ -1,0 +1,64 @@
+:root {
+  --page-bg: #27292c;
+  --gray-font: #566075;
+  --dark-button-color: #222428;
+  --dark-button-hover-color: #1d1e21;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: white;
+  background: var(--page-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page {
+  overflow: hidden;
+}
+
+.page-title {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 48px;
+}
+
+.block-title {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--gray-font);
+  text-transform: uppercase;
+  letter-spacing: 10%;
+}
+
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #232428;
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+    margin-bottom: 60px;
+  }
+}

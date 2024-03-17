@@ -1,0 +1,16 @@
+.item {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  font-size: 16px;
+  text-transform: capitalize;
+  background: var(--dark-button-color);
+  border-radius: 6px;
+  transition: all 0.2s;
+  cursor: pointer;
+  padding: 0 20px;
+
+  &:hover {
+    background: var(--dark-button-hover-color);
+  }
+}

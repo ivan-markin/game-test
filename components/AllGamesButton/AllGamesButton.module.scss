@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  background: var(--dark-button-color);
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0 30px;
+
+  &:hover {
+    background: var(--dark-button-hover-color);
+  }
+}
+
+.arrow {
+}

@@ -1,0 +1,22 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: var(--dark-button-color);
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background: var(--dark-button-hover-color);
+  }
+}
+
+.arrow {
+}
